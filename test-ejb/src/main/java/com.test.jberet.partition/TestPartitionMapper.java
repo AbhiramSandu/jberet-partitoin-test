@@ -31,8 +31,8 @@ public class TestPartitionMapper implements PartitionMapper {
                 partEnd = end;
             }
             Properties partProperties = new Properties();
-            partProperties.put(TestConstants.PARAM_PARTITION_START, partStart);
-            partProperties.put(TestConstants.PARAM_PARTITION_END, partEnd);
+            partProperties.setProperty(TestConstants.PARAM_PARTITION_START, "" + partStart);
+            partProperties.setProperty(TestConstants.PARAM_PARTITION_END, "" + partEnd);
             partitionProperties[i] = partProperties;
         }
         PartitionPlanImpl partitionPlan = new PartitionPlanImpl();

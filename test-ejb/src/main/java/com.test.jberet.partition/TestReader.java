@@ -31,7 +31,7 @@ public class TestReader implements ItemReader {
     }
 
     public Object readItem() throws Exception {
-        int max = Integer.parseInt(partitionStartString);
+        int max = Integer.parseInt(partitionEndString);
         this.curIndex++;
         if (this.curIndex < max) {
             return this.curIndex;
