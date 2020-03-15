@@ -1,7 +1,0 @@
-com/test/jberet/partition/TestState.class
-com/test/jberet/partition/BatchOperatorProvider.class
-com/test/jberet/partition/TestPartitionMapper.class
-com/test/jberet/partition/TestReader.class
-com/test/jberet/partition/TestConstants.class
-com/test/jberet/partition/TestProcessor.class
-com/test/jberet/partition/TestWriter.class
