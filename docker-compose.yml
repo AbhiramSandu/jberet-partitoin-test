@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  test:
+    build: ./test-ear
+    ports:
+      - 13080:8080
+      - 13443:8443
+      - 13990:9990
+      - 13787:8787
